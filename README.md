@@ -4,29 +4,29 @@ In dieser Übung lernst Du den Umgang mit MySQL in PDO.
 
 ## Start
 
-Um zu starten, musst Du zuerst Docker hochfahren und dann die Tabelle books.sql in die Datenbank importieren. Weiter unten findest Du die Erklärung, wie das geht.
+Um zu starten, musst Du zuerst Docker hochfahren und dann die Tabelle books.sql in die Datenbank importieren. Und so geht's:
 
 ### Docker
 
-- To start the docker container, run the following command in the terminal:
+1. Um den Container zu starten führe folgeden Befehl aus:
 
 ```bash
 docker-compose up -d
 ```
 
-- To stop the docker container, run the following command in the terminal:
+2. Um den Container zu stoppen, führe folgenden Befehl aus:
 
 ```bash
 docker-compose down
 ```
 
-- To access the phpMyAdmin, go to the following url in your browser:
+3. Um phpMyAdmin zu öffenen, verwende folgende URL:
 
 ```bash
 http://localhost:8080/
 ```
 
-- To access the PHP index page, go to the following url in your browser:
+4. Um index.php zu öffenen, verwende folgende URL:
 
 ```bash
 http://localhost:8000/
