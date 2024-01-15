@@ -50,19 +50,19 @@ Im index.php File werden die Bücher in einer bereits erstellten Bootstrap Tabel
 
 Wenn Du keine Verbindung zur Datenbank aufbauen kannst, oder sonstige Errors vorhanden sind, versuche folgende Befehle:
 
-** Alle Docker Container stoppen **
+**Alle Docker Container stoppen**
 
 ```bash
 docker stop $(docker ps -a -q)
 ```
 
-** Alle bestehenden Container entfernen **
+**Alle bestehenden Container entfernen**
 
 ```bash
 docker rm $(docker ps -a -q)
 ```
 
-** um Docker-Container, zugehörige Netzwerke und Volumes herunterzufahren und zu entfernen, sowie alle mit diesen Containern verbundenen Images zu löschen **
+**um Docker-Container, zugehörige Netzwerke und Volumes herunterzufahren und zu entfernen, sowie alle mit diesen Containern verbundenen Images zu löschen**
 Nach diesem Befehl muss die Datenbank nochmals in PHPMyAdmin importiert werden, weil das Volume gelöscht wurde.
 
 ```bash
