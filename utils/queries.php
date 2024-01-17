@@ -7,6 +7,7 @@ include('utils/db.php');
 /*
     SCHREIBE HIER DIE QUERIES
     Speichere diese immer in der Variable $queryString ab
+    Bsp: SELECT * FROM books
 */
 
 $queryString = "";

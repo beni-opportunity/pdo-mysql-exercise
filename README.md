@@ -4,14 +4,14 @@ In dieser Übung lernst Du den Umgang mit MySQL in PDO.
 
 ## Start
 
-Um zu starten, musst Du zuerst Docker hochfahren und dann die Tabelle books.sql in die Datenbank importieren. Und so geht's:
+Um zu starten, musst Du zuerst den Docker Container starten und dann die Tabelle **books.sql** in die Datenbank importieren. Und so geht's:
 
 ### Docker
 
 1. Um den Container zu starten führe folgeden Befehl aus:
 
 ```bash
-docker-compose up -d
+docker-compose up
 ```
 
 2. Um den Container zu stoppen, führe folgenden Befehl aus:
@@ -34,17 +34,17 @@ http://localhost:8000/
 
 ### Tabelle importieren
 
-Um die Tabelle in die Datenbank zu importieren, öffnest Du PHPMyAdmin und klickst auf der linken Seite auf die Datenbank "library". Oben findest Du den Button "Importieren" - klicke darauf. Auf der neuen Seite kannst Du über "Choose File", die Tabelle books.sql in Deinem Projektordner auswählen.
+Um die Tabelle in die Datenbank zu importieren, **öffnest Du PHPMyAdmin** und klickst auf der linken Seite auf die **Datenbank "library"**. Oben findest Du den Button **"Importieren"** - klicke darauf. Auf der neuen Seite kannst Du über **"Choose File"**, die Tabelle **books.sql** in Deinem Projektordner auswählen.
 
-Wenn Du das gemacht hast, klicke unten auf "Import". Nun sollte die Tabelle books, gefüllt mit Daten, in Deine Datenbank importiert worden sein.
+Wenn Du das gemacht hast, klicke unten auf **"Import"**. Nun sollte die Tabelle books, gefüllt mit Daten, in Deine Datenbank importiert worden sein.
 
 ### Projektaufbau
 
-Unter utils/db.php findest Du die Verbindung, die mit Hilfe von PDO zur Datenbank hergestellt wird.
+- Unter **utils/db.php** findest Du die Verbindung, die mit Hilfe von PDO zur Datenbank hergestellt wird.
 
-Unter utils/queries.php kannst Du die SQL Queries einfügen, um die Abfragen durchzuführen.
+- Unter **utils/queries.php** kannst Du die SQL Queries einfügen, um die Abfragen durchzuführen.
 
-Im index.php File werden die Bücher in einer bereits erstellten Bootstrap Tabelle ausgegeben.
+- Im **index.php** File werden die Bücher in einer bereits erstellten Bootstrap Tabelle ausgegeben.
 
 ### Errorhandling
 
