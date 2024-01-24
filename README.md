@@ -11,13 +11,13 @@ Um zu starten, musst Du zuerst den Docker Container starten und dann die Tabelle
 1. Um den Container zu starten führe folgeden Befehl aus:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 2. Um den Container zu stoppen, führe folgenden Befehl aus:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 3. Um phpMyAdmin zu öffenen, verwende folgende URL:
