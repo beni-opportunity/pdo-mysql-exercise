@@ -1,6 +1,6 @@
 # MySQL Übungen mit PDO
 
-In dieser Übung lernst Du den Umgang mit MySQL in PDO.
+In dieser (Übung)[https://docs.google.com/document/d/1ht-i8_ZtafdFU2oQcX4sOuE9ANa9h9oZQwxjGs-D9ko/edit?usp=sharing] lernst Du den Umgang mit MySQL in PDO.
 
 ## Start
 
